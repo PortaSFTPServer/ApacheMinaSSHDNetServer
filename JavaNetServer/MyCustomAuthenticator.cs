@@ -26,7 +26,7 @@ namespace JavaNetServer
             if (result)
             {
 
-                fileSystemFactory.setUserHomeDir("admin", Paths.get("C:\\C#Projects\\JavaNetServer\\JavaNetServer\\admin"));
+                fileSystemFactory.setUserHomeDir("admin", Paths.get(".\\admin"));
             }
 
             return result;
