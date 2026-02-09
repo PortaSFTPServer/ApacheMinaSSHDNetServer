@@ -128,7 +128,7 @@ This project emphasizes secure file transfer practices:
 
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
 
-## 🤝 Contributing
+## 🤝 Future Contributions
 
 Contributions are welcome! This is a demonstration project to help the .NET community leverage Apache Mina SSHD. Whether you're improving documentation, adding examples, or suggesting better integration patterns, your input is valuable.
 
