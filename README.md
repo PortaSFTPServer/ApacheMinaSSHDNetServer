@@ -8,6 +8,18 @@
 
 **ApacheMinaSSHDNetServer** is a demonstration project showcasing how to integrate and utilize **Apache Mina SSHD** — the industry-standard Java SSH/SFTP library — within **C#/.NET applications**. This repository bridges the gap between Java's robust Apache Mina SSHD framework and the .NET ecosystem, enabling developers to build secure, high-performance SSH and SFTP servers in C#.
 
+### 📢 Open Source Library in Development
+
+**Porta SFTP Server is actively developing an open source .NET library** that will provide native C# bindings and integration patterns for Apache Mina SSHD. This upcoming library will be:
+
+- ✨ **Fully open source** - Licensed under Apache License Version 2.0
+- 🎯 **Production-ready** - Enterprise-grade quality and performance
+- 📦 **NuGet-ready** - Easy integration into any .NET project
+- 🔧 **Well-documented** - Comprehensive guides and examples
+- 🤝 **Community-driven** - Open for contributions and feedback
+
+This demonstration repository serves as a preview and testing ground for the upcoming library, showcasing the integration patterns and capabilities that will be available to the .NET community.
+
 ### What is Apache Mina SSHD?
 
 Apache Mina SSHD is a comprehensive, 100% pure Java library that provides both client and server-side SSH protocol support. It's widely used in enterprise applications for:
@@ -68,8 +80,15 @@ The project demonstrates integration patterns between:
 This project is part of the **Porta SFTP Server** ecosystem:
 
 - [**Porta SFTP Server**](https://portasftpserver.com) - Free, portable, cross-platform SFTP server powered by Apache Mina SSHD
+- **Upcoming: Apache Mina SSHD .NET Library** - Open source library for native .NET integration (Apache License 2.0)
 - Demonstrates real-world Apache Mina SSHD implementations
 - Provides additional examples and best practices
+
+### Stay Updated
+
+⭐ **Star this repository** to receive updates on the upcoming open source library release!
+
+The library will provide a clean, idiomatic C# API for all Apache Mina SSHD functionality, making it easier than ever to build secure SSH/SFTP solutions in .NET.
 
 ## 🌟 Why Apache Mina SSHD?
 
@@ -105,10 +124,6 @@ This project emphasizes secure file transfer practices:
 ### .NET Integration
 - [.NET Java Interoperability Options](https://docs.microsoft.com/en-us/dotnet/standard/native-interop/)
 
-## 🎓 Keywords & Topics
-
-`apache-mina-sshd` `sftp-server` `ssh-server` `dotnet` `csharp` `java-dotnet-interop` `secure-file-transfer` `sftp` `ssh` `file-transfer` `cross-platform` `porta-sftp-server` `java-csharp-bridge` `enterprise-integration` `secure-shell`
-
 ## 📄 License
 
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
@@ -121,8 +136,16 @@ Contributions are welcome! This is a demonstration project to help the .NET comm
 
 This project demonstrates practical integration approaches for using Apache Mina SSHD in C#/.NET environments. It's designed to help developers understand how to leverage mature Java SSH/SFTP libraries in their .NET applications.
 
+**Porta SFTP Server** is actively developing a comprehensive open source .NET library (Apache License 2.0) that will make Apache Mina SSHD integration seamless and production-ready for .NET developers. This demonstration repository showcases the underlying concepts and integration patterns that will power the upcoming library.
+
 For a complete, production-ready SFTP server solution, check out [**Porta SFTP Server**](https://portasftpserver.com) - a free, portable SFTP server built with Apache Mina SSHD.
 
----
+### 🔔 Get Notified
 
-**SEO Keywords**: Apache Mina SSHD .NET, C# SFTP Server, .NET SSH Server, Java .NET Interop, SFTP C#, Secure File Transfer .NET, Apache Mina C#, SSH Server .NET Core, SFTP Server Implementation, Cross-platform SFTP, .NET Java Bridge
+Want to be among the first to use the new open source library? 
+
+- ⭐ Star this repository
+- 👀 Watch for releases
+- 📧 Follow [Porta SFTP Server](https://portasftpserver.com) for announcements
+
+---
