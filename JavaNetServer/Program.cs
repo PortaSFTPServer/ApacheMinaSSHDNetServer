@@ -49,8 +49,6 @@ namespace JavaNetServer
 
 
 
-            // sftpFactory.addSftpEventListener(new MySftpEventListener());
-
             sshd.setSubsystemFactories(Collections.singletonList(sftpFactory));
 
 
@@ -59,6 +57,7 @@ namespace JavaNetServer
 
             Console.WriteLine("IKVM-hosted SSH Server started on port 2222...");
 
+            System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
 
         }
     }
