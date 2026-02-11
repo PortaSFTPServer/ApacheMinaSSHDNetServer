@@ -32,10 +32,10 @@ namespace JavaNetServer
 
             if (!System.IO.Directory.Exists(physicalPath)) System.IO.Directory.CreateDirectory(physicalPath);
 
-            // 2. Create the Factory and set the default home (root)
+            // 4. Create the Factory and set the default home (root)
             var fileSystemFactory = new VirtualFileSystemFactory(Paths.get(physicalPath));
 
-            // 3. Attach it to the server
+            // 5. Attach it to the server
             sshd.setFileSystemFactory(fileSystemFactory);
 
 
@@ -52,7 +52,7 @@ namespace JavaNetServer
             sshd.setSubsystemFactories(Collections.singletonList(sftpFactory));
 
 
-            // 5. Start the server
+            // 6. Start the server
             sshd.start();
 
             Console.WriteLine("IKVM-hosted SSH Server started on port 2222...");
